@@ -1,0 +1,113 @@
+{
+  "artifacts": {
+    "pong-cartridge.bin": {
+      "bytes": 499,
+      "sha256": "cc0a04e7ac6795fb4bb1ae32d6114c07c26ff591d0eaf7b012ee893a2dabc894"
+    },
+    "pong-cartridge.sym": {
+      "bytes": 342,
+      "sha256": "49e3d8b09ce8ec52554fb881c65f6c8dda8948a164854dc559c1b894943679b7"
+    },
+    "resident-addresses.inc": {
+      "bytes": 163,
+      "sha256": "2ef2f13b5a9a7091ef221426b3c4beea613d0719d98e75738c1d3a0c17aea58c"
+    },
+    "resident-vm.bin": {
+      "bytes": 2304,
+      "sha256": "5586a6103a6fb02199a225518c66726638efed27c5996a2fa11901871f609648"
+    },
+    "resident-vm.sym": {
+      "bytes": 1410,
+      "sha256": "73c47e16b9445203c02cb50024517d02c93a9c24519ff276145a551cb7fd1c72"
+    },
+    "vm-pong-demo.gb": {
+      "bytes": 32768,
+      "sha256": "ddecb5ed7927fb6eb07cea62a34e0a8207989ddb7f0cf00bf71c1c8a29da353d"
+    },
+    "vm-pong-demo.map": {
+      "bytes": 569,
+      "sha256": "81cbf0ce606030eff6f5c24e693282465424e75bb83c608abc37e50e25d8c7ac"
+    },
+    "vm-pong-demo.sym": {
+      "bytes": 245,
+      "sha256": "f4250ceed601dfcdb0821e0d2c07f99038d634e4ba1b8d86ff0f4451d8ee6692"
+    }
+  },
+  "header": {
+    "cartridge_ram_bytes": 0,
+    "cgb_only": true,
+    "global_checksum": 60907,
+    "header_checksum": 235,
+    "mapper": "ROM ONLY",
+    "platform_logo": "standard hardware header supplied by rgbfix -v",
+    "platform_logo_sha256": "daf4cabdc852baa0291849203f0b41fd0b4ecd58e0d7aff4a509f5de4d7f9a2e",
+    "rom_bytes": 32768,
+    "title": "VM PONG DEMO"
+  },
+  "inputs": {
+    "Makefile": {
+      "bytes": 203,
+      "sha256": "dda9126e06b8e7190b8d6db49b3b1b65a43a1c57c718e72c428723a0cebf345c"
+    },
+    "assets/boot-map.bin": {
+      "bytes": 224,
+      "sha256": "e67563d8017800ea033d0c6e0326fd80f0ae4fb0bf08116f61701859b65358e4"
+    },
+    "assets/boot-tiles.bin": {
+      "bytes": 1488,
+      "sha256": "1fae9744aa0301145c6f4b4cf6bf4eb9bb5c5c4f8376bbc20dc9112f216cbe78"
+    },
+    "assets/boot-tiles.packbits.bin": {
+      "bytes": 1094,
+      "sha256": "135912cb4dfd257ecba00a4a083ee939ba6711a51eac22ccc9260508d898dad2"
+    },
+    "src/isa.inc": {
+      "bytes": 908,
+      "sha256": "ed16bcc79d15ff9a6e7818a4f3921845ab2c2410fe9d19b3f91dc4a7ca24df54"
+    },
+    "src/pong.asm": {
+      "bytes": 3217,
+      "sha256": "db761c232bc8240e3e670227cb249068e8d574abe38a7127b2d85428dd3aad16"
+    },
+    "src/resident-vm.asm": {
+      "bytes": 8050,
+      "sha256": "1637ef0e3bac8a496f52596059229814d5fca7444dca3b74243eb1b55ad024bb"
+    },
+    "src/rom.asm": {
+      "bytes": 1849,
+      "sha256": "efa2af34df3829ff782814274334424b177e5e01e232c4881d07ce176fbc8d0b"
+    },
+    "tools/build.py": {
+      "bytes": 5765,
+      "sha256": "98e9e6dbfec41b3cc49d5d2909ab7b70bf8df399f81393257d650645bc350404"
+    }
+  },
+  "native_reveal_vblanks": 169,
+  "preserved_assets": {
+    "boot-map.bin": {
+      "bytes": 224,
+      "sha256": "e67563d8017800ea033d0c6e0326fd80f0ae4fb0bf08116f61701859b65358e4"
+    },
+    "boot-tiles.bin": {
+      "bytes": 1488,
+      "sha256": "1fae9744aa0301145c6f4b4cf6bf4eb9bb5c5c4f8376bbc20dc9112f216cbe78"
+    },
+    "boot-tiles.packbits.bin": {
+      "bytes": 1094,
+      "sha256": "135912cb4dfd257ecba00a4a083ee939ba6711a51eac22ccc9260508d898dad2"
+    }
+  },
+  "runtime_receiver_redirect": {
+    "address": 49350,
+    "bytes": 3,
+    "purpose": "JP standaloneInstallCartridge after native reveal"
+  },
+  "schema_version": 1,
+  "seed": 37,
+  "standalone_completed_mark_hold_vblanks": 90,
+  "tool_versions": {
+    "rgbasm": "rgbasm v1.0.1",
+    "rgbfix": "rgbfix v1.0.1",
+    "rgblink": "rgblink v1.0.1"
+  }
+}
